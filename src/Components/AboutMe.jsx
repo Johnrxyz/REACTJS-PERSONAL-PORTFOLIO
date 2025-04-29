@@ -5,7 +5,7 @@ function AboutMe(props) {
             <p className="aboutDes">A PHOTO OF ME:</p>
 
             <div className="imgHolder">
-                <img src={props.myImage} alt="a photo of me" style={{width:'100%', height:'auto'}}/>
+                <img src={props.myImage} alt="" style={{width:'100%', height:'auto'}}/>
             </div>
         </>
     )
