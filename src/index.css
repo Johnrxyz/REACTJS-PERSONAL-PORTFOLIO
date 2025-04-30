@@ -166,7 +166,11 @@ a{
   filter: grayscale(0%);
 }
 
-.mainC a, .about img {
+.card:hover {
+  filter: grayscale(0%);
+}
+
+.card, .about img {
   filter: grayscale(100%);
   transition: filter 0.3s ease;
 }
