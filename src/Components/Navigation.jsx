@@ -40,9 +40,9 @@ function Navigation() {
                 <section className="nav">
                     <nav>
                         <ul>
-                            <li><a href="/"><p>HOME</p></a></li>
-                            <li><a href="/about"><p>ABOUT</p></a></li>
-                            <li><a href="/projects"><p>PROJECTS</p></a></li>
+                            <li><p style={{fontWeight:'bold'}}>HOME</p></li>
+                            <li><p style={{fontWeight:'bold'}}>ABOUT</p></li>
+                            <li><p style={{fontWeight:'bold'}}>PROJECTS</p></li>
                         </ul>
                     </nav>
 

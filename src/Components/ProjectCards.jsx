@@ -1,7 +1,12 @@
 function Cards (props) {
+    const GoToLink = () => {
+        window.open(props.myLink, "_blank", "noopener,noreferrer");
+    }
+    
     return (
         <div>
-            <a  href={props.myLink}
+            <div
+                onClick={GoToLink}
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="card" 
@@ -10,7 +15,7 @@ function Cards (props) {
                         swipe_left
                         </span>
                     <h1 className="cardName">{props.name}</h1>
-                </a>
+                </div>
         </div>
     )
 }
